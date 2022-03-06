@@ -1,0 +1,39 @@
+/*---Navbar CSS start here-----*/
+.navbar-inverse {
+    font-size: 17px;
+  }
+  .navbar-nav {
+    padding: 0 0 0 20px;
+  }
+  
+  /*---Navbar CSS end here-----*/
+  
+  /*--------Main CSS start here-------*/
+
+  main {
+    width: 96%;
+    margin: 0 auto;
+    padding: 23.5px 20px;
+    min-height: calc(100vh - 55px -55px);
+  }
+
+  /* ----Main CSS end here-------*/
+
+/*-------Footer CSS start here-------*/
+
+.footer-area {
+    background-color: rgba(0, 0, 0, 0.842);
+    height: 45px;
+    width: 100%;
+    margin-top: 45px;
+    position: absolute;
+    bottom: 0;
+  }
+  .footer-content {
+    color: white;
+    text-align: center;
+    margin: 10px;
+  }
+  
+  /*-------Footer CSS end here----------*/
+  

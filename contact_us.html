@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Us | Car Rental</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
+    />
+    
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/css/contact_us.css" class="css" />
+  </head>
+  <body>
+    <!-------Navbar end here-------->
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"><b>CAR RENTAL PORTAL</b></a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="car_listing.html">Car Listing</a></li>
+          <li><a href="about_us.html">About Us</a></li>
+          <li  class="active"><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="login.php">
+                <span class="glyphicon glyphicon-log-in"> Login</span>
+              </a>
+            </li>
+            <li>
+              <a href="signup.php">
+                <span class="glyphicon glyphicon-user"> Signup</span>
+              </a>
+            </li>
+          </ul>
+      </div>
+    </nav>
+    <!-------Navbar end here-------->
+
+    <!-------Main start here-------->
+    <main>
+      <div class="container">
+        <div class="content">
+          <div class="left-side">
+            <div class="address details">
+              <i class="fas fa-map-marker-alt"></i>
+              <div class="topic">Address</div>
+              <div class="text-one">New Delhi</div>
+            </div>
+            <div class="phone details">
+              <i class="fas fa-phone-alt"></i>
+              <div class="topic">Phone</div>
+              <div class="text-one">+91 1234567890</div>
+            </div>
+            <div class="email details">
+              <i class="fas fa-envelope"></i>
+              <div class="topic">Email</div>
+              <div class="text-one">info@carrental.com</div>
+            </div>
+          </div>
+          <div class="right-side">
+            <div class="topic-text">Send us a message</div>
+            <p>
+              If you have any query, any suggestion, or facing any problem, then
+              feel free to contact us.
+            </p>
+            <form action="" method="POST" id="frmCaptcha">
+              <div class="input-box">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Enter your name"
+                  required
+                />
+              </div>
+              <div class="input-box">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+              </div>
+              <div class="input-box message-box">
+                <input
+                  type="text"
+                  name="message"
+                  placeholder="Your Message"
+                  required
+                />
+              </div>
+              <div class="button">
+                <input type="submit" name="submit" value="Send Now" />
+              </div>
+              &nbsp;&nbsp;&nbsp;&nbsp;
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-------Main end here-------->
+
+    <!------Footer start here------>
+
+    <footer class="footer-area">
+      <div class="footer-content">
+        &copy; 2022 Copyright
+        <a href="index.html"> CAR RENTAL</a>
+      </div>
+    </footer>
+
+    <!------Footer end Here------->
+  </body>
+</html>

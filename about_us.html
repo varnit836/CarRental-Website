@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome | Car Rental</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="assets/css/about_us.css" />
+  </head>
+  <body>
+    <!------Navbar Start Here-------->
+
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index.html"><b>CAR RENTAL PORTAL</b></a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="car_listing.html">Car Listing</a></li>
+          <li class="active"><a href="about_us.html">About Us</a></li>
+          <li><a href="contact_us.html">Contact Us</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="">
+              <span class="glyphicon glyphicon-user"> <?php echo $_SESSION["username"]; ?></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-------Navbar end Here------->
+
+    <!-------Main start here------->
+    <main>
+        <div>
+            <h2 id="heading_hero">
+                <span class="best">About Us...</span>
+            </h2>
+            <p id="hero_text">
+                Car Rental allows you to hire a rental or self-drive car of your
+                choice at an affordable rate. Car rental make it possible for you to
+                pick a car which suits your purpose, whether it is a small one when
+                you are travelling alone, or a bigger spacious one when you are in a
+                group. We have a variety of car including luxury car such as Mercedes
+                or Audi models.
+            </p>
+        </div>
+    </main>
+
+    <!--------Main end here-------->
+
+    <!------Footer start here------->
+
+    <footer class="footer-area">
+        <div class="footer-content">
+          &copy; 2022 Copyright
+          <a href="index.html"> CAR RENTAL</a>
+        </div>
+    </footer>
+  
+    <!------Footer end here------->
+  </body>
+</html>

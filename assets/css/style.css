@@ -1,0 +1,99 @@
+/*---Navbar CSS start here-----*/
+.navbar-inverse{
+  font-size: 17px;
+}
+.navbar-nav{
+  padding: 0 0 0 20px;
+}
+
+/*---Navbar CSS end here-----*/
+
+/* -----Banner CSS start here------ **/
+main {
+  width: 96%;
+  margin: 0 auto;
+  padding: 30px 20px;
+  min-height: calc(100vh - 45px -45px);
+}
+.banner-area {
+  background-image: url(../img/banner-image.jpg);
+  background-size: cover;
+  background-position: center center;
+  top: 50px;
+  height: 80vh;
+  width: 100%;
+  position: absolute;
+}
+
+.banner-area:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  background: rgba(112, 78, 34, 0.322);
+  opacity: 0.7;
+  z-index: -1;
+}
+
+.banner-after {
+  margin-top: 510px;
+}
+
+/* -----Banner CSS end here------ */
+
+/*-------Recent Car SS start here-------*/
+#recent_car {
+  background-color: rgba(207, 7, 40, 0.911);
+  height: 30px;
+  width: 200px;
+}
+#recent_car_content {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 1px;
+}
+/*-------Recent Car SS end here-------*/
+
+/*----Hero CSS start here------------*/
+
+/*Importing Google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Chivo:ital@1&family=Lobster&family=Redressed&family=Volkhov:ital@1&display=swap");
+#heading_hero {
+  font-family: "Redressed", cursive;
+  font-size: 40px;
+  text-align: center;
+}
+.best {
+  font-weight: bold;
+  color: brown;
+}
+#hero_text {
+  font-family: "Volkhov", serif;
+  font-size: 20px;
+  margin: 25px 60px 25px 60px;
+  text-align: center;
+}
+
+/*-------Hero CSS end here----------*/
+
+/*-------Footer CSS Starts here-------*/
+
+.footer-area {
+  background-color: rgba(0, 0, 0, 0.842);
+  height: 45px;
+  width: 100%;
+  margin-top: 45px;
+  position: absolute;
+  bottom: 0;
+}
+.footer-content {
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+/*-------Footer CSS end here-------*/

@@ -1,0 +1,67 @@
+/*---Navbar CSS start here-----*/
+.navbar-inverse {
+  font-size: 17px;
+}
+.navbar-nav {
+  padding: 0 0 0 20px;
+}
+
+/*---Navbar CSS end here-----*/
+
+/*--------Main CSS start here-------*/
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+main {
+  min-height: calc(100vh - 45px -45px);
+  width: 96%;
+  margin: 0 auto;
+  padding: 25px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+  margin-top: 80px;
+}
+
+.wrapper {
+  position: relative;
+  max-width: 430px;
+  width: 100%;
+  background: #fff;
+  padding: 34px;
+  border-radius: 6px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.wrapper h2 {
+  position: relative;
+  font-size: 22px;
+  font-weight: 600;
+  color: #333;
+}
+
+/*--------Main CSS end here-------*/
+
+/*-------Footer CSS Starts here-------*/
+
+.footer-area {
+  background-color: rgba(0, 0, 0, 0.842);
+  height: 45px;
+  width: 100%;
+  margin-top: 45px;
+  position: absolute;
+  bottom: 0;
+}
+.footer-content {
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+
+/*-------Footer CSS end here-------*/
